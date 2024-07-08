@@ -36,6 +36,7 @@
 			membershipExceptions = (
 				Q1.swift,
 				Q2.swift,
+				Q3.swift,
 			);
 			target = 4520925C2C3AA56A005604A3 /* InterviewTests */;
 		};
