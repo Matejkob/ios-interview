@@ -1,49 +1,35 @@
 import SwiftUI
 
-@main struct InterviewApp: App { var body = WindowGroup(content: ContentView.init) }
+@main struct InterviewApp: App { var body = WindowGroup { ContentView(count: 0) } }
 
 // MARK: - Main View of the App
 
 struct ContentView: View {
-    @State var count: Int
+    let count: Int
 
     var body: some View {
         // let _ = Self._printChanges()
         Form {
             Section {
-                Text(self.count.description)
-                Button("Decrement") { decrementButtonTapped() }
-                Button("Increment") { incrementButtonTapped() }
+                // TODO: Add counter
+                
+                // TODO: Add + and - buttons
             } header: {
                 Text("Counter")
             }
         }
+        .padding(40)
     }
 
     func decrementButtonTapped() {
-        count -= 1
+        // TODO: Implement decrementing
     }
 
     func incrementButtonTapped() {
-        count += 1
+        // TODO: Implement incrementing
     }
 }
 
 #Preview {
     ContentView(count: 0)
 }
-
-/*
- var body: some View {
- // let _ = Self._printChanges()
- Form {
- Section {
- Text(self.count.description)
- Button("Decrement") { decrementButtonTapped() }
- Button("Increment") { incrementButtonTapped() }
- } header: {
- Text("Counter")
- }
- }
- }
- */
