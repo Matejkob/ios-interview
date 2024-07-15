@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45D61B9A2C45A4670006B924 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D61B992C45A4670006B924 /* Tests.swift */; };
 		45D61BA02C45A46E0006B924 /* SomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E46FC22C3BE0A10092559E /* SomeTests.swift */; };
 		45D61BA12C45A4A20006B924 /* Q4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637FBFC82C458C43002F1D65 /* Q4.swift */; };
 		45D61BA22C45A4A30006B924 /* Q1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E46FC02C3BE0A10092559E /* Q1.swift */; };
@@ -29,7 +28,6 @@
 
 /* Begin PBXFileReference section */
 		45D61B972C45A4670006B924 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		45D61B992C45A4670006B924 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		45E46F8E2C3BE03E0092559E /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E46F962C3BE03F0092559E /* App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App.entitlements; sourceTree = "<group>"; };
 		45E46FBF2C3BE0A10092559E /* Q2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Q2.swift; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			children = (
 				45E46FBE2C3BE0A10092559E /* Questions */,
 				45E46FC22C3BE0A10092559E /* SomeTests.swift */,
-				45D61B992C45A4670006B924 /* Tests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -207,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D61B9A2C45A4670006B924 /* Tests.swift in Sources */,
 				45D61BA02C45A46E0006B924 /* SomeTests.swift in Sources */,
 				45D61BA12C45A4A20006B924 /* Q4.swift in Sources */,
 				45D61BA22C45A4A30006B924 /* Q1.swift in Sources */,
