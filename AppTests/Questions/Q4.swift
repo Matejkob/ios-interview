@@ -4,6 +4,7 @@
 //
 //  Created by Łukasz Wojtarowicz on 15/07/2024.
 //
+
 import XCTest
 import Combine
 
@@ -51,6 +52,5 @@ final class Q4: XCTestCase {
         } receiveValue: { values in
             XCTAssertEqual(values, ["Kevin", "Susan"])
         }
-        
     }
 }
